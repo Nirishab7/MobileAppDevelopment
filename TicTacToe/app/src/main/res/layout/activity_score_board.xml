@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".ScoreBoard">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="79dp"
+        android:gravity="center_horizontal"
+        android:text="Score Board"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/MatchView"
+        android:layout_width="163dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="552dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="412dp"
+        android:text="No. of matches 'X' won"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="312dp"
+        android:text="No. of matches 'O' won"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="137dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="216dp"
+        android:text="No. of matches Draw"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="159dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="104dp"
+        android:background="#7028F1"
+        android:gravity="center_horizontal"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Xmatch"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="420dp"
+        android:text=""
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Omatch"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="308dp"
+        android:text=""
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/drawMatch"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="212dp"
+        android:text=""
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
